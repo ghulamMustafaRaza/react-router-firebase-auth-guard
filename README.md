@@ -29,8 +29,10 @@ yarn add react-router-firebase-auth-guard
 <br/>
 
 ```jsx
-import { initializeApp } from 'firebase'
-import { FirebaseAuthGuardRouter, FirebaseAuthGuardRoute } from 'react-router-firebase-auth-guard'
+import { initializeApp } from 'firebase';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { FirebaseAuthGuardRouter, FirebaseAuthGuardRoute } from 'react-router-firebase-auth-guard';
 import {
     Link
 } from 'react-router-dom'
