@@ -1,3 +1,10 @@
+import React, { Component } from 'react';
+import { auth } from 'firebase';
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom'
+
 interface FirebaseAuthGuardRouterProps {
   navBar: any;
   loading: any;
