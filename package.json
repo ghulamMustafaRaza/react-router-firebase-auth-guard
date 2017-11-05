@@ -1,6 +1,6 @@
 {
   "name": "react-router-firebase-auth-guard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Package For Managing React-Router Firebase Auth Guard ",
   "main": "index.js",
   "scripts": {
