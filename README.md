@@ -67,8 +67,8 @@ ReactDOM.render(
     <div>
         <FirebaseAuthGuardRouter loading={<span>loading...</span>} navBar={NavBar}>
             <FirebaseAuthGuardRoute exact path="/" component={() => <h1>Nutral</h1>} />
-            <FirebaseAuthGuardRoute noAuthOnly exact redirectPath="/auth" path="/noauth" component={() => <h1>auth</h1>} />
-            <FirebaseAuthGuardRoute authOnly redirectPath="/noauth" path="/auth" component={() => <h1>no auth</h1>} />
+            <FirebaseAuthGuardRoute noAuthOnly exact redirectPath="/noauth" path="/auth" component={() => <h1>auth</h1>} />
+            <FirebaseAuthGuardRoute authOnly redirectPath="/auth" path="/noauth" component={() => <h1>no auth</h1>} />
         </FirebaseAuthGuardRouter>
     </div>,
     document.getElementById('root') // ROOT IS MY ID PASTE HERE YOURS
