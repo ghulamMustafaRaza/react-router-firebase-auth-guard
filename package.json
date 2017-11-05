@@ -1,0 +1,28 @@
+{
+  "name": "react-router-firebase-auth-guard",
+  "version": "1.0.0",
+  "description": "A Package For Managing React-Router Firebase Auth Guard ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghulamMustafaRaza/react-router-firebase-auth-guard.git"
+  },
+  "keywords": [
+    "auth",
+    "firebase",
+    "react",
+    "react-router",
+    "react-router-dom",
+    "guard",
+    "solution"
+  ],
+  "author": "Ghulam Mustafa Raza Qadri <ghulammustafasoomar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghulamMustafaRaza/react-router-firebase-auth-guard/issues"
+  },
+  "homepage": "https://github.com/ghulamMustafaRaza/react-router-firebase-auth-guard#readme"
+}
